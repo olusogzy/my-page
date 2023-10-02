@@ -1,0 +1,32 @@
+/* font-family: 'Mukta', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+
+.headerName {
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 5rem;
+}
+
+
+.header {
+  animation-name: roll;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+.feature {
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.feature :hover{
+  cursor: pointer;
+  transform: scale(1.5);
+}
+
+
+@keyframes roll {
+  from{transform: rotate(0)}
+  to{transform: rotate(360deg) }
+}
